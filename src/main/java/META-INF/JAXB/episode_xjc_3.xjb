@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2023.11.15 a las 12:36:47 AM BOT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="www.assuresoft.com">
+    <schemaBindings map="false">
+      <package name="com.assuresoft.soap.model"/>
+    </schemaBindings>
+    <bindings scd="tns:getCountryRequest">
+      <class ref="com.assuresoft.soap.model.GetCountryRequest"/>
+    </bindings>
+    <bindings scd="tns:getCountryResponse">
+      <class ref="com.assuresoft.soap.model.GetCountryResponse"/>
+    </bindings>
+    <bindings scd="~tns:country">
+      <class ref="com.assuresoft.soap.model.Country"/>
+    </bindings>
+    <bindings scd="tns:getAllCountriesRequest">
+      <class ref="com.assuresoft.soap.model.GetAllCountriesRequest"/>
+    </bindings>
+    <bindings scd="tns:getAllCountriesResponse">
+      <class ref="com.assuresoft.soap.model.GetAllCountriesResponse"/>
+    </bindings>
+    <bindings scd="~tns:currency">
+      <typesafeEnumClass ref="com.assuresoft.soap.model.Currency"/>
+    </bindings>
+  </bindings>
+</bindings>
+
